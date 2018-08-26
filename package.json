@@ -1,16 +1,20 @@
 {
-  "name": "ecommerce-application",
+  "name": "blog-application",
   "version": "1.0.0",
-  "description": "this is an basic ecommerce apllication",
+  "description": "this is a simple rest api blog application",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "shubham",
+  "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.3",
-    "mongoose": "^5.2.9",
+    "helmet": "^3.13.0",
+    "moment": "^2.22.2",
+    "mongoose": "^5.2.6",
+    "pino": "^5.3.0",
     "shortid": "^2.2.13"
   }
 }
